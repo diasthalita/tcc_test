@@ -28,7 +28,6 @@ import json
 
 # General Script Configuration
 chromedriverPath= '/path/to/chromedriver'
-chromedriverPath= '/Users/thalitadias/Downloads/selenium/chromedriver'
 logPath='/tmp/chromeDriver.log'
 DEBUG= True
 
