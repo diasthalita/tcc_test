@@ -102,7 +102,6 @@ for url in sectionUrls:
 			loggedUrl= str(messageContainer.get('message').get('params').get('response').get('url'))
 
 			if loggedUrl == url:
-				loggedMethod= str(messageContainer.get('message').get('method'))
 				loggedStatus= str(messageContainer.get('message').get('params').get('response').get('status'))
 
 				# display info
